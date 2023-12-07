@@ -1,3 +1,17 @@
-.title {
-    font: helvetica;
+/* .CLASS denotes classes with the name CLASS */
+/* CLASS:STATE denotes pseudo-classes */
+/* #ID denotes IDs with the name ID */
+/* image[src] denotes <img src="src"> but not <img> */
+
+.header {
+    text-align: center;
+    font-family: Helvetica;
+}
+
+.title:hover {
+    color: blue;
+}
+
+#whiteline-paragraph {
+    font-family: Helvetica;
 }

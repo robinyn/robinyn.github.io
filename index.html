@@ -1,16 +1,22 @@
-<!doctype html>
+<!doctype html><!--Not sure why these are still needed but apparently it's good practice-->
 <html lang="en-US"><!--Root element: contains attributes like "lang" to set the primary language-->
-    <head><!--Head element contains stuff we want to include in the HTML document without appearing on the webpage-->
-          <!--Things like "keywords", "page descriptions" and "page titles"-->
+    <head>
+        <!--Head element contains stuff we want to include in the HTML document without appearing on the webpage-->
+        <!--Things like "keywords", "page descriptions" and "page titles"-->
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width" />
         <link href="styles/index-styles.css" rel="stylesheet" />
+        <!--The link element links a CSS style sheet to the page-->
         <title>The varying grotesqueries of human nature</title>
+        <!--The title element sets the page title-->
     </head>
     <header class="header">
-        <h1 class="title">The varying grotesqueries of human nature</h1>
+        <!--Header element is... literally the header-->
+        <h1 class="title"><a href="https://www.google.com">The varying grotesqueries of human nature</a></h1>
     </header>
     <body>
+        <!--Body element-->
+        <!--There are 6 headings denoted as h1~h6-->
         <h1 class="h1-demo">Heading 1</h1>
         <h2 class="h2-demo">Heading 2</h2>
         <h3 class="h2-demo">Heading 2</h3>
@@ -21,7 +27,7 @@
             you can use &lt;br&gt; as linebreaks and it will be rendered accordingly. The paragraph is
             rendered according to the width of the webpage.
         </p>
-        <p>
+        <p id="whiteline-paragraph">
             Paragraphs are separated by a whiteline. You can make inline text <strong>bold</strong> by using
             &lt;strong&gt;&lt;/strong&gt; tags. You can also create ordered and unordered lists using
             &lt;ol&gt;&lt;ul&gt; tags, respectively.
